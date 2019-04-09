@@ -1,0 +1,166 @@
+.container {
+max-width: 871px;
+
+}
+
+
+body {
+line-height: 1.5;
+font-size: 1.25em;
+font-family: "franklin-gothic-urw",sans-serif;
+}
+
+p {
+margin: 0 0 1em 0;
+line-height: 1.5;
+color: #222222;
+font-family: "franklin-gothic-urw",sans-serif;
+}
+
+
+h2 {
+font-size: 1.3em;
+margin: 0.35em 0; 
+font-family: "franklin-gothic-urw",sans-serif;
+}
+
+
+
+.side-panel {
+    vertical-align: top;
+    width: 34%;
+    display: inline-block;
+    background-color: #f6f0ef;
+    padding: 1em;
+    margin: 17px 0 0 0;
+    box-sizing: border-box;
+    
+}
+
+.side-panel h2 {
+    margin: 0px auto 20px;
+    font-size: 1.2em;
+}
+
+.side-panel h3 {
+    font-size: 1em;
+    margin: 0;
+}
+
+.side-panel hr {
+    border-color: #ff5d98;
+}
+
+.side-panel i {
+    color: #ff5d98;
+}
+
+button {
+background-color: green;
+    border-radius: 3px;
+        cursor: pointer;
+    display: inline-block;
+    font-family: "franklin-gothic-urw",sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+        line-height: 2em;
+    margin: 0 0.5em 0.5em 0;
+    padding: 0 1em;
+    text-decoration: none;
+    color: #fff;
+    border: medium none;
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.header-image {
+    width: 100%;
+}
+
+
+.promo-box-container {
+    width: 65%;
+    margin-right: 0;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+
+}
+  
+
+.promo-box {
+    display: inline-block;
+    width: 46%;
+    background: #00193c;
+    color: #fff;
+    border: 1px solid #00193c;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+     -moz-transition: all 0.4s;
+     -o-transition: all 0.4s;
+    margin-bottom: 24px;
+  
+}
+
+.odd {
+    margin-right: 20px;
+}
+
+.promo-box-container a {
+    font-size: 0;
+    text-decoration: none;
+}
+
+
+
+
+.promo-box img {
+    width: 100%;
+}
+
+.promo-box h2 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0 5px 10px;
+}
+
+
+.promo-box h2 a {
+    cursor: pointer;
+}
+
+.promo-box:hover {
+    background: #438DCC;
+    border: 1px solid #438DCC;
+}
+
+@media only screen and (max-width: 900px) {
+  .promo-box-container {
+      width: 100%;
+  }
+  
+ .side-panel {
+     width: 100%;
+ }
+ 
+ .promo-box {
+     width: 48%;
+}
+
+
+}
+    
+@media only screen and (max-width: 635px) {
+     .promo-box {
+     width: 100%;
+}
+
+  .odd {
+      margin-right: 0;
+  }
+    
+}
