@@ -27,6 +27,7 @@ font-family: "franklin-gothic-urw",sans-serif;
 
 a {
     color: #ff5d98;
+    word-wrap: break-word
 }
 
 
